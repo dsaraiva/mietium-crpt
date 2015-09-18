@@ -12,6 +12,7 @@ public class Main {
             String s = bufferedReader.readLine();
 
             System.out.println(s);
+
         }
         catch(IOException e)
         {
