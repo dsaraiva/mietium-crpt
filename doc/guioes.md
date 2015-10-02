@@ -1,6 +1,25 @@
 # Guiões das Sessões Laboratoriais
 
 ---
+## Semana 3
+
+### Aplicação de Cifra
+
+Pretende-se adaptar a aplicação desenvolvida na última aula para responder
+aos seguintes requisitos:
+
+ * O ficheiro que guarda a chave utilizada nas operações de cifra deve ser devidamente protegido;
+ * Se o ficheiro cifrado for manipulado (alterado), o programa ao decifrar deverá detectar essa ocorrência;
+ * Utilize uma cifra por blocos num modo apropriado.
+
+Algumas classes relevantes (ver  [API](http://docs.oracle.com/javase/8/docs/api/)):
+
+ * `java.security.KeyStore`
+ * `java.security.KeyStore.SecretKeyEntry`
+ * `javax.crypto.Mac`
+ * `javax.crypto.spec.IvParameterSpec`
+
+---
 ## Semana 2
 
 ### Cifra de ficheiro utilizando JCA/JCE
